@@ -1,3 +1,8 @@
+require 'pry'
 def alphabetize(arr)
   # code here
-end
+ string = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ split_string = string.split("")
+ split_string.sort_by do |letter|
+ end
+ end 
